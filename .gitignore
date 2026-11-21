@@ -1,0 +1,34 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Audio datasets and recordings
+ESC-50/
+esc50_source/
+safety_audio_dataset/
+real_audio/
+test_audio/
+*.wav
+*.mp3
+*.flac
+
+# Personal credentials
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Build and temporary files
+build/
+dist/
+*.tmp
+*.log
